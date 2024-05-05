@@ -6,7 +6,7 @@ CFLAGS=-Wall -Wextra
 all: malshell_c
 
 malshell_c: malshell_c.c
-	$(CC) $(CFLAGS) -o $@ $^
+	$(CC) -o $@ $^
 
 clean:
 	rm -f malshell_c
